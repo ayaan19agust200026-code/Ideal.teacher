@@ -1,0 +1,436 @@
+Ideal.
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>مثالی استاد | Ideal Teacher</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#172033;
+    line-height:1.8;
+}
+
+header{
+    background:linear-gradient(135deg,#075e54,#0b8f7d);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.lang{
+    margin-top:12px;
+}
+
+.lang button{
+    border:none;
+    padding:8px 16px;
+    margin:3px;
+    border-radius:20px;
+    cursor:pointer;
+    background:white;
+    color:#075e54;
+    font-weight:bold;
+}
+
+.hero{
+    padding:45px 20px;
+    text-align:center;
+    background:white;
+}
+
+.hero h1{
+    font-size:34px;
+    color:#075e54;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#075e54;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+}
+
+section{
+    padding:30px 18px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    color:#075e54;
+    margin-bottom:25px;
+    font-size:27px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.card .icon{
+    font-size:35px;
+}
+
+.card h3{
+    color:#075e54;
+    margin:8px 0;
+}
+
+.tip{
+    background:#fff7d6;
+    border-right:5px solid #e0aa00;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    font-size:18px;
+}
+
+footer{
+    background:#172033;
+    color:white;
+    text-align:center;
+    padding:25px 15px;
+    margin-top:30px;
+}
+
+.hidden{
+    display:none;
+}
+
+@media(max-width:500px){
+    .hero h1{
+        font-size:28px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+👨‍🏫 مثالی استاد | Ideal Teacher
+</div>
+
+<div class="lang">
+<button onclick="urdu()">اردو</button>
+<button onclick="english()">English</button>
+</div>
+
+</header>
+
+
+<!-- اردو -->
+
+<div id="urduPage">
+
+<section class="hero">
+
+<h1>ایک اچھا استاد، ایک بہتر نسل</h1>
+
+<p>
+علم دینا صرف تدریس نہیں، بلکہ کردار سازی، رہنمائی اور مستقبل سنوارنے کا نام ہے۔
+</p>
+
+<a href="#guides" class="btn">سیکھنا شروع کریں</a>
+
+</section>
+
+
+<section id="guides">
+
+<h2 class="title">⭐ مثالی استاد کی خصوصیات</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">❤️</div>
+<h3>محبت اور شفقت</h3>
+<p>ہر طالب علم کے ساتھ عزت، محبت اور صبر سے پیش آئیں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">⚖️</div>
+<h3>انصاف</h3>
+<p>تمام طلبہ کے ساتھ مساوی اور منصفانہ رویہ اختیار کریں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">📚</div>
+<h3>علم</h3>
+<p>اپنے مضمون اور جدید تدریسی طریقوں کا علم مسلسل بڑھائیں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">🧠</div>
+<h3>سمجھ بوجھ</h3>
+<p>طالب علم کی صلاحیت، مشکل اور ضرورت کو سمجھنے کی کوشش کریں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">⏰</div>
+<h3>وقت کی پابندی</h3>
+<p>وقت کی قدر کریں اور طلبہ کے لیے عملی مثال بنیں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">🌱</div>
+<h3>کردار سازی</h3>
+<p>طلبہ میں اخلاق، ذمہ داری اور مثبت سوچ پیدا کریں۔</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">🛠️ استاد کے مفید Tools</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">📝</div>
+<h3>Lesson Planner</h3>
+<p>روزانہ اور ہفتہ وار سبق کی منصوبہ بندی۔</p>
+</div>
+
+<div class="card">
+<div class="icon">📊</div>
+<h3>Student Progress</h3>
+<p>طلبہ کی تعلیمی کارکردگی کا ریکارڈ۔</p>
+</div>
+
+<div class="card">
+<div class="icon">🗓️</div>
+<h3>Class Timetable</h3>
+<p>کلاس کا آسان ٹائم ٹیبل تیار کریں۔</p>
+</div>
+
+<div class="card">
+<div class="icon">🎯</div>
+<h3>Grade Calculator</h3>
+<p>نمبروں اور گریڈ کا حساب آسانی سے کریں۔</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">💡 آج کا Teacher Tip</h2>
+
+<div class="tip">
+"اچھا استاد صرف سوال کا جواب نہیں دیتا، بلکہ طالب علم کو سوال کرنا بھی سکھاتا ہے۔"
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">📖 ہمارا مقصد</h2>
+
+<div class="card">
+
+<p>
+ہمارا مقصد ایسے اساتذہ کی حوصلہ افزائی کرنا ہے جو
+علم کے ساتھ اخلاق، کردار، اعتماد اور مثبت سوچ بھی پیدا کریں۔
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+
+<!-- English -->
+
+<div id="englishPage" class="hidden">
+
+<section class="hero">
+
+<h1>A Great Teacher Builds a Better Generation</h1>
+
+<p>
+Teaching is not only about giving knowledge. It is about guidance,
+character building and shaping the future.
+</p>
+
+<a href="#englishGuides" class="btn">Start Learning</a>
+
+</section>
+
+<section id="englishGuides">
+
+<h2 class="title">⭐ Qualities of an Ideal Teacher</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">❤️</div>
+<h3>Love & Care</h3>
+<p>Treat every student with respect, kindness and patience.</p>
+</div>
+
+<div class="card">
+<div class="icon">⚖️</div>
+<h3>Fairness</h3>
+<p>Treat all students equally and fairly.</p>
+</div>
+
+<div class="card">
+<div class="icon">📚</div>
+<h3>Knowledge</h3>
+<p>Keep improving subject knowledge and teaching skills.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧠</div>
+<h3>Understanding</h3>
+<p>Understand the needs and abilities of every student.</p>
+</div>
+
+<div class="card">
+<div class="icon">⏰</div>
+<h3>Punctuality</h3>
+<p>Respect time and become an example for students.</p>
+</div>
+
+<div class="card">
+<div class="icon">🌱</div>
+<h3>Character Building</h3>
+<p>Develop good character, responsibility and positive thinking.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">🛠️ Useful Teacher Tools</h2>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">📝</div>
+<h3>Lesson Planner</h3>
+<p>Create daily and weekly lesson plans.</p>
+</div>
+
+<div class="card">
+<div class="icon">📊</div>
+<h3>Student Progress</h3>
+<p>Track student academic performance.</p>
+</div>
+
+<div class="card">
+<div class="icon">🗓️</div>
+<h3>Class Timetable</h3>
+<p>Create an easy class timetable.</p>
+</div>
+
+<div class="card">
+<div class="icon">🎯</div>
+<h3>Grade Calculator</h3>
+<p>Calculate marks and grades easily.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">💡 Teacher Tip of the Day</h2>
+
+<div class="tip">
+"A good teacher does not only answer questions;
+they teach students how to ask better questions."
+</div>
+
+</section>
+
+</div>
+
+
+<footer>
+
+<p>© 2026 Ideal Teacher | مثالی استاد</p>
+<p>تعلیم • تربیت • کردار • مستقبل</p>
+
+</footer>
+
+
+<script>
+
+function urdu(){
+
+document.documentElement.lang="ur";
+document.documentElement.dir="rtl";
+
+document.getElementById("urduPage").classList.remove("hidden");
+document.getElementById("englishPage").classList.add("hidden");
+
+}
+
+function english(){
+
+document.documentElement.lang="en";
+document.documentElement.dir="ltr";
+
+document.getElementById("urduPage").classList.add("hidden");
+document.getElementById("englishPage").classList.remove("hidden");
+
+}
+
+</script>
+
+</body>
+</html>
